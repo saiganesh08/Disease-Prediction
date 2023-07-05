@@ -1,4 +1,4 @@
 # Disease-Prediction
-Based on the symptoms you have your disease will be predicted
-Prediction will be done using multiple machine learning algorithms
-The data will be stored and viewed sqlite 
+1)Based on the symptoms you have your disease will be predicted
+2)Prediction will be done using multiple machine learning algorithms
+3)The data will be stored and viewed sqlite 
