@@ -482,9 +482,6 @@ def Exit():
 w2 = Label(root, justify=LEFT, text="Disease Predictor using Machine Learning", fg="Red", bg="Ivory")
 w2.config(font=("Times",30,"bold italic"))
 w2.grid(row=1, column=0, columnspan=2, padx=100)
-w2 = Label(root, justify=LEFT, text="Contributors: Sudhanshu,Rohan,Aditya", fg="Pink", bg="Ivory")
-w2.config(font=("Times",30,"bold italic"))
-w2.grid(row=2, column=0, columnspan=2, padx=100)
 
 #Label for the name
 NameLb = Label(root, text="Name of the Patient", fg="Red", bg="Ivory")
@@ -583,7 +580,7 @@ t2=Label(root,font=("Times",15,"bold italic"),text="Random Forest",height=1,bg="
          ,width=40,fg="white",textvariable=pred2,relief="sunken").grid(row=17, column=1, padx=10)
 
 t3=Label(root,font=("Times",15,"bold italic"),text="Naive Bayes",height=1,bg="red"
-         ,width=40,fg="orange",textvariable=pred3,relief="sunken").grid(row=19, column=1, padx=10)
+         ,width=40,fg="black",textvariable=pred3,relief="sunken").grid(row=19, column=1, padx=10)
 
 t4=Label(root,font=("Times",15,"bold italic"),text="kNearest Neighbour",height=1,bg="Blue"
          ,width=40,fg="yellow",textvariable=pred4,relief="sunken").grid(row=21, column=1, padx=10)
