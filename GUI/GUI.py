@@ -59,7 +59,7 @@ def Exit():
         exit()
         
 #Headings for the GUI written at the top of GUI
-w2 = Label(root, justify=LEFT, text="Disease Predictor using Machine Learning", fg="Red", bg="Ivory")
+w2 = Label(root, justify=LEFT, text="SYMPTO-MED", fg="Red", bg="Ivory")
 w2.config(font=("Times",30,"bold italic"))
 w2.grid(row=1, column=0, columnspan=2, padx=100)
 
